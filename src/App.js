@@ -11,6 +11,11 @@ const App = () => {
                 <p>ITEM 1</p>
               </div>
             </div>
+            <div className="dnd-item">
+              <div>
+                <p>ITEM 2</p>
+              </div>
+            </div>
           </div>
         </div>
       </header>
