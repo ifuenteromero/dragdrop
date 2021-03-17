@@ -23,7 +23,7 @@
 }
 
 .group-title{
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .dnd-item{
@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
     color: #282c34;
-    min-height: 150px;
+    min-height: 80px;
     border-radius: 5px;
     font-weight: bold;
 }
