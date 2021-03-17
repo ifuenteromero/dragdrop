@@ -1,4 +1,5 @@
 import "./App.css";
+import DragNDrop from "./components/DragNDrop";
 
 const App = () => {
   const data = [
@@ -8,20 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="drag-n-drop">
-          {data.map((group, groupI) => (
-            <div key={groupI} className="dnd-group">
-              <div className="group-title">{group.title}</div>
-              {group.items.map((item, itemI) => (
-                <div key={itemI} className="dnd-item">
-                  <div>
-                    <p>{`ITEM ${item}`}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
+        <DragNDrop data={data} />
       </header>
     </div>
   );
